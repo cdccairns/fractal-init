@@ -1,0 +1,16 @@
+{
+  "name": "fractal-init",
+  "version": "1.0.0",
+  "author": {
+    "name": "Chris Cairns",
+    "email": "chris@chriscairns.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdccairns/fractal-init.git"
+  },
+  "devDependencies": {
+    "@frctl/fractal": "^1.5.8",
+    "@frctl/twig": "^1.2.9"
+  }
+}
