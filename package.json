@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/cdccairns/fractal-init.git"
   },
+  "scripts": {
+    "fractal:start": "fractal start"
+  },
   "devDependencies": {
     "@frctl/fractal": "^1.5.8",
     "@frctl/twig": "^1.2.9"

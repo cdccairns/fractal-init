@@ -54,8 +54,6 @@ fractal.components.set('default.context', {
   data
 });
 
-console.log(data);
-
 /**
  * Disable default statuses.
  *
@@ -73,9 +71,22 @@ fractal.docs.set('default.status', null);
 
 const mandelbrot = require('@frctl/mandelbrot');
 const theme = mandelbrot({
-  nav: ['search', 'docs', 'components'],
-  panels: ['html', 'view', 'notes'],
-  skin: 'white'
+  nav: [
+    'search',
+    'docs',
+    'components'
+  ],
+  panels: [
+    'html',
+    'view',
+    'notes'
+  ],
+  skin: {
+    name: 'white',
+  },
+  styles: [
+    'default'
+  ]
 });
 
 fractal.web.theme(theme);
